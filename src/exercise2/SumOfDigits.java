@@ -21,7 +21,7 @@ public class SumOfDigits{
       int d3 = number % 10;
 
       int sum = d1 + d2 + d3;
-      System.out.println("The sum of the digits of your number is " + sum);
+      System.out.println("Sum of digits: " + sum);
     }
  
   }
