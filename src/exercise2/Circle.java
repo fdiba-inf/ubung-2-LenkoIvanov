@@ -10,7 +10,7 @@ public class Circle{
       System.out.println("Enter the radius: ");
       double radius = input.nextDouble();
 
-      double circ = 2 * 3.14 * radius;
+      double circ = 2.0 * 3.14 * radius;
       double area = 3.14 * (radius * radius);
 
       System.out.println("Circumference: " + circ);
