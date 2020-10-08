@@ -13,12 +13,12 @@ public class QuadraticEquation{
 
 
     if(a != 0){
-      double d = (b * b) - (4 *a*c);
+      double d = (b * b) - 4 * (a * c);
       if(d > 0 || d == 0){
        double x1 = (-b + Math.sqrt(d)) / (2 * a);
        double x2 = (-b - Math.sqrt(d)) / (2 * a);
 
-       System.out.println(x1 + x2);
+       System.out.println(x1 + ", " + x2);
       }
       else{
         System.out.println("Imaginary values");
@@ -27,7 +27,7 @@ public class QuadraticEquation{
     }
     else {
      if (b != 0){
-      double x = -b / (2*a);
+      double x = - b ;
 
       System.out.println(x);
      }
