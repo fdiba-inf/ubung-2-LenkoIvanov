@@ -23,12 +23,10 @@ public class QuadraticEquation{
       else{
         System.out.println("Imaginary values");
       }
-      
-    }
+      }
     else {
      if (b != 0){
-      double x = - b ;
-
+      double x = -c / b ;
       System.out.println(x);
      }
 
